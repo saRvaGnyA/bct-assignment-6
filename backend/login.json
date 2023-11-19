@@ -1,0 +1,78 @@
+{
+  "compiler": {
+    "version": "0.8.23+commit.f704f362"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "challengeString",
+            "type": "string"
+          }
+        ],
+        "name": "LoginRequest",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "challengeString",
+            "type": "string"
+          }
+        ],
+        "name": "login",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "contracts/Login.sol": "Login"
+    },
+    "evmVersion": "shanghai",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "contracts/Login.sol": {
+      "keccak256": "0x48f2ad3d0a70d0ef33907f0c70d14bd69c83d15ce6e0cff09b09d5c3d842c148",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://0da89875a22a7ef485243d18e2f4e639e2f14d84016e0f5d9032134288dd9d27",
+        "dweb:/ipfs/QmaaEL1ePT14EYFmJr9szpG2ECSPE2kBCJ2BcSfPV4zVLj"
+      ]
+    }
+  },
+  "version": 1
+}
